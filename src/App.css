@@ -1,0 +1,68 @@
+.App {
+  text-align: center;
+}
+
+/*Styles for AddRecordModal */
+.modalBox {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 24px;
+  padding: 16px;
+  min-width: 300px;
+}
+
+.modalHeading {
+  font-size: 1.5rem;
+  margin-bottom: 16px;
+}
+
+.modalButtonGroup {
+  padding-top: 10px;
+}
+
+.modalButton {
+  margin-left: 10px;
+}
+
+
+/* Styles for RecordModal component */
+.recordModalBox {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 24px;
+  padding: 16px;
+  min-width: 300px;
+}
+
+.recordModalHeading {
+  font-size: 1.5rem;
+  margin-bottom: 16px;
+}
+
+.recordModalButtonGroup {
+  padding-top: 10px;
+}
+
+.recordModalButton {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+/* Styles for RecordTable component */
+.recordTableContainer {
+  height: 400px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.recordTableButton {
+  margin-bottom: 20px;
+}
